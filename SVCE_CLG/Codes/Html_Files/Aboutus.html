@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVCE Tirupati</title>
+    <link rel="icon" href="https://www.reviewadda.com/assets/uploads/college/logo/LOGO_11565.png">
+    <link rel="stylesheet" href="Svce.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        * {
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        #bac4 {
+            width: 60%;
+            height: 60px;
+            border: 2px solid rgb(203, 47, 78);
+            background-color: rgb(203, 47, 78);
+            margin-top: 90px;
+            margin-left: 300px;
+            font-size: 30px;
+            font-family: sans-serif;
+            color: white;
+            text-align: center;
+        }
+        #bac5 {
+            width: 15%;
+            height: 70px;
+            background-color: white;
+            margin-top: 60px;
+            margin-left: 8%;
+            font-size: xx-large;
+            font-family: sans-serif;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        #bac7 {
+            width: 25%;
+            height: 70px;
+
+            background-color: white;
+            margin-top: 60px;
+            margin-left: 8%;
+            font-size: xx-large;
+            font-family: sans-serif;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        #bac8 {
+            width: 12%;
+            height: 50px;
+            background-color: rgb(203, 47, 78);
+            margin-top: 60px;
+            margin-left: 45%;
+            font-size: xx-large;
+            font-family: sans-serif;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        #bac6 {
+            width: 20%;
+            height: 60px;
+            background-color: rgb(203, 47, 78);
+            margin-top: 100px;
+            margin-left: 38%;
+            font-size: xx-large;
+            font-family: sans-serif;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        #line4 {
+            border: 2px solid rgb(17, 90, 143);
+            width: 80%;
+            height: 2px;
+            background-color: rgb(17, 90, 143);
+            margin-left: 25px;
+            margin-top: 15px;
+        }
+        #line7 {
+            border: 2px solid rgb(17, 90, 143);
+            width: 80%;
+            height: 2px;
+            background-color: rgb(17, 90, 143);
+            margin-left: -2px;
+            margin-top: 15px;
+        }
+        #line8 {
+            border: 2px solid rgb(17, 90, 143);
+            width: 80%;
+            height: 2px;
+            background-color: rgb(17, 90, 143);
+            margin-left: 19px;
+            margin-top: 15px;
+        }
+        #line6 {
+            border: 2px solid rgb(17, 90, 143);
+            width: 50%;
+            height: 2px;
+            background-color: rgb(17, 90, 143);
+            margin-left: 65px;
+            margin-top: 15px;
+        }
+        #p1 {
+            width: 80%;
+            margin-left: -2%;
+            margin-top: -7%;
+            padding: 160px;
+            color: white;
+            line-height: 28px;
+            font-size: 18px;
+            font-family: sans-serif;
+        }
+        #p2 {
+            width: 370%;
+            margin-left: -2%;
+            margin-top: 10%;
+            padding: 1px;
+            color: white;
+            line-height: 28px;
+            font-size: 21px;
+            font-family: sans-serif;
+            text-align: left;
+        }
+        #red1 {
+            width: 54%;
+            height: 500px;
+            border: 2px solid rgb(211, 220, 223);
+            background-color: rgb(211, 220, 223);
+            margin-top: 5%;
+        }
+        #re1 {
+            width: 47%;
+            height: 500px;
+            background-color: rgb(10, 85, 139);
+            border: 2px solid rgb(10, 85, 139);
+            margin-top: -502px;
+            margin-left: 785px;
+        }
+        .sub1 {
+            width: 16%;
+            height: 180px;
+            border: none;
+            margin-top: 5%;
+            margin-left: 6%;
+            font-family: sans-serif;
+            position: absolute;
+        }
+        .sub2 {
+            width: 16%;
+            height: 180px;
+            border: none;
+            margin-top: 5%;
+            margin-left: 24%;
+            font-family: sans-serif;
+            position: absolute;
+        }
+        .sub3 {
+            width: 16%;
+            height: 180px;
+            border: none;
+            margin-top: 5%;
+            margin-left: 42%;
+            font-family: sans-serif;
+            position: absolute;
+        }
+        .sub4 {
+            width: 16%;
+            height: 180px;
+            border: none;
+            margin-top: 5%;
+            margin-left: 60%;
+            font-family: sans-serif;
+            position: absolute;
+        }
+        .sub5 {
+            width: 16%;
+            height: 180px;
+            border: none;
+            margin-top: 5%;
+            margin-left: 78%;
+            font-family: sans-serif;
+            position: absolute;
+
+        }
+        .sub6 {
+            width: 16%;
+            height: 180px;
+            border: none;
+            margin-top: 27%;
+            margin-left: 6%;
+            font-family: sans-serif;
+            position: absolute;
+        }
+        .sub7 {
+            width: 16%;
+            height: 180px;
+            border: none;
+            margin-top: 27%;
+            margin-left: 24%;
+            font-family: sans-serif;
+            position: absolute;
+        }
+        .sub8 {
+            width: 16%;
+            height: 180px;
+            border: none;
+            margin-top: 27%;
+            margin-left: 42%;
+            font-family: sans-serif;
+            position: absolute;
+        }
+        .sub9 {
+            width: 16%;
+            height: 180px;
+            border: none;
+            margin-top: 27%;
+            margin-left: 60%;
+            font-family: sans-serif;
+            position: absolute;
+        }
+        .sub10 {
+            width: 16%;
+            height: 180px;
+            border: none;
+            margin-top: 27%;
+            margin-left: 78%;
+            font-family: sans-serif;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div id="head1">
+        <nav>
+            <a href="https://payments.campx.in/svce/public/hoeeme" class="an">ERP</a>
+            <a href="Campax.html" class="an">Campx</a>
+            <a href="Freshers.html" class="an">Fresher's Fest</a>
+            <a href="Examination.html" class="an">Examination Cell</a>
+            <a href="Results.html" class="an">Results</a>
+            <a href="Quick links.html" class="an">Quick Links</a>
+            <a href="Aboutus.html" class="an">About us</a>
+            <a href="Alumni.html" class="an">Alumni</a>
+            <a href="Contactus.html" class="an">Contact us</a>
+        </nav>
+    </div>
+    <div id="head2">
+        <img src="https://svce.edu.in/images/svcelogo.png" alt=""
+            style="width: 17%;height: 65px;margin-left: 100px;margin-top: 5px;">
+        <nav id="nav1">
+            <a href="Svce.html" class="an1">Home</a>
+            <select name="" id="col"
+                style="width: 17%; border: none;font-size: 17px;border-left: 2px solid rgb(214, 206, 206);padding:20px;color:rgb(92, 87, 87)">
+                <option value="">Departments</option>
+                <option value="">Computer Science & Engineering</option>
+                <option value="">CSE - AI & ML</option>
+                <option value="">CSE - Data Sciencd</option>
+                <option value="">CSE - Cyber Security</option>
+                <option value="">Information Technology</option>
+                <option value="">Electronics & Communication Engineering</option>
+                <option value="">Electrical & Electronics Engineering</option>
+                <option value="">Mechanical Engineering</option>
+                <option value="">Civil Engineering</option>
+                <option value="">Master of Business Administration</option>
+                <option value="">Master of computer Applications</option>
+                <option value="">Science & Humanities</option>
+                <option value=""></option>
+            </select>
+            <a href="Placements.html" class="an1">Placements</a>
+            <a href="addmisions.html" class="an1">Admissions</a>
+            <a href="RnD.html" class="an1">R&D</a>
+            <a href="CampusLife.html" class="an1">Campus Life</a>
+            <a href="https://payments.billdesk.com/bdcollect/error/maintenance.jsp" class="an1">Fees</a>
+            <a href="Jobs.html" class="an1" style="border-right: 2px solid rgb(180, 173, 173);">Jobs</a>
+        </nav>
+    </div>
+    <div style="width:18%;height: 55px; background-image: linear-gradient(90deg,rgb(17, 90, 143,0.7),rgb(17, 90, 143,0.7));
+    border-left: 7px solid rgb(203, 47, 78);margin-left: 100px;margin-top: 10%;position: absolute;">
+        <p style="color:white;font-family: sans-serif;font-size: 37px;margin-left: 9%;margin-top: 2%;"><b>About Us</b>
+        </p>
+    </div>
+
+    <img src="https://svce.edu.in/images/aboutus/abt_hero.jpg" alt=""
+        style="width:90%;height: 390px;margin-left: 78px;margin-top: -59px;">
+    <div id="bac4">
+        <p style="padding: 10px;margin-left: 12px;font-size: xx-large;"><b>"SVCE is Under Council For Social Development
+                Trust"</b></p>
+    </div>
+    </div>
+    <br><br><br>
+    <div style="height: 1000px; background-color:rgb(203, 47, 78);margin-top: 10px;border:1px solid rgb(203, 47, 78)">
+        <div id="bac5">
+            <p style="padding: 7px;margin-left: 12px;font-size: xx-large;color: rgb(10, 85, 139);"><b>PRINCIPAL</b></p>
+            <div id="line4">
+            </div>
+        </div>
+
+        <p id="p1">Dr. N Sudhakar Reddy, completed his B.E from College of Engineering, GITAM,Visakhapatnam, M.Tech
+            (Computer Science) from College of Engineering JNTU, Anantapurand Ph.D from JNTUA Anantapur in Data mining
+            Specialization. He has been awarded the CMILevel 5 Certificate in Management and Leadership. He has 25 years
+            of Teaching and Research Experience. He worked at various engineering colleges in different positions like
+            Professor,Training and Placement Officer, Head of the Department and Principal.<br><br>
+
+            He has conducted many training programmes for Engineering and MBA students on life skills and campus
+            recruitment. He acted as a coordinator for Infosys Campus Connect and also trained many students on
+            Programming Fundamentals in STP(Special Training Programme), which is conducted by Infosys, IEG, JNTUH &
+            Rajiv Udyogasri. <br><br>
+
+            He is the life member of ISTE, CSI, IETE and an annual member of IEEE and ACM. Member of JNTUA-PG Board of
+            Studies in faculty of CSE & MCA.<br><br>
+
+            He has been with SV College of Engineering, Tirupati since 2008. Under his adroit administration, SVCE is
+            glorified with permanent affiliation, 2(f), 12(B) , R&D centers(CSE &ECE), NAAC with “A” grade and NBA for
+            all eligible UG Programmes - EEE, ECE, CSE, IT, MECH, CIV and UGC Autonomous Status.<br><br>
+
+            He received ISTE – Best Engineering College Principal award in AP and TS for the year 2017 from the
+            Honorable Vice-Chancellor of JNTUA. He has received JNTUA University Principal Award for the year 2022 and
+            award has been presented to him on the occasion of Teacher’s Day on 05-09-2022 at JNTUA,
+            Ananthapuramu.<br><br>
+
+            He received prestigious ISTE - Bharatiya Vidya Bhavan National Award for Best Engineering College Principal
+            Award-2021 from the Honoroble Chief Minister of Goa Dr. Pramod Sawant on 27th August, 2022 at Goa.<br><br>
+
+            He is nominated as a member of independent expert committee for evaluating the solutions/courses of NEAT 2.0
+            by NEAT (National Educational Alliance for Technology), AICTE.</p>
+        <div style="width:20%;height: 300px;border: 0px solid black;margin-left: 75%;margin-top: -900px;">
+            <figcaption><img src="https://svce.edu.in/images/aboutus/sp.jpg" alt="">
+                <p style="font-size: large;font-family: sans-serif;color:white;line-height: 30px;   "><b
+                        style="font-size: x-large;">Dr. N. Sudhakar Reddy</b><br>
+                    M.Tech(CSE), Ph.D(CSE),FIE,MISTE</p>
+            </figcaption>
+        </div>
+    </div>
+    <div id="bac6">
+        <p style="padding: 7px;margin-left: 4px;font-size: 25px;color:white;"><b>VISION & MISSION</b></p>
+        <div id="line6">
+        </div>
+    </div>
+    <div id="red1">
+        <div style="width:99%;height:40px;">
+            <p style="padding: 100px;margin-left: 12px;font-size: xx-large;color: rgb(10, 85, 139);"><b>VISION</b></p>
+            <p
+                style="color:black;margin-left: 110px;font-size: 21px;font-family: sans-serif;margin-top: -50px;width:70%;font-family: sans-serif;">
+                To be a centre of excellence focusing on high quality technical education, research and technical
+                services with global leadership competence to succeed in employment and higher education with ethical,
+                social, entrepreneurial aspects updating to the real time requirements.</p>
+        </div>
+    </div>
+    <div id="re1">
+        <div style="width:99%;height:40px;">
+            <p style="padding: 100px;margin-left: 12px;font-size: xx-large;color: rgb(203, 47, 78);"><b>MISION</b></p>
+            <p
+                style="color:white;margin-left: 110px;font-size: 20px;font-family: sans-serif;margin-top: -50px;width:70%;font-family: sans-serif;line-height: 30px;">
+                M1 - To impart high quality technical education by providing the state-of-the art infrastructure, core
+                instruction.<br>
+
+                M2 - Advanced research and technical consultancy services with qualified and senior faculty.<br>
+
+                M3- To prepare the students professionally deft and intellectually adept possessing excellent skill,
+                knowledge and behavior with global competence</p>
+        </div>
+    </div>
+    <div style="height: 1000px; background-color:rgb(203, 47, 78);margin-top: 70px;border:1px solid rgb(203, 47, 78)">
+        <div id="bac7">
+            <p style="padding: 7px;font-size: xx-large;color: rgb(10, 85, 139); text-align: left;"><b>GOVERNING BODY</b>
+            </p>
+            <div id="line7">
+            </div>
+            <p id="p2">Dear Students and Parents,<br><br>
+                It gives me great pleasure to welcome you to our SV Colleges family.<br><br>
+                "We cannot always build the future for our youth, but we can build our youth for the future."<br><br>
+                Franklin D. Roosevelt<br><br>
+                These words by Franklin D. Roosevelt perfectly describe our aim at SV Colleges. Beyond providing a sound
+                education, we wish to provide our students a holistic learning experience for life. Our aim is to teach
+                students to LEARN, not just STUDY. Hence, we strive to travel beyond the boundaries of mere books. We
+                have realized that the future is abstract and unknown but the youth in our hands are real and can be
+                moulded.<br><br>
+                Having students from different parts of the country, I sincerely consider it as our priority to make the
+                students feel right at home. We strive to provide a unique educational experience for students by
+                devoting all our efforts to our mission, insight, and culture. It is our fervent hope that the years
+                that you spend in SV Colleges would enable you to equip with leadership and managerial skills. The
+                knowledge that you will gain, the fine qualities that you will imbibe and the technical skills that you
+                will learn to apply will be your major contribution to your parents, to society, and to the
+                nation.<br><br>
+                It is with great pride that I serve as the Chairman of SV Colleges and I believe in the education we
+                offer just as I believe in our faculty and our students. I once again welcome you to our SV Colleges
+                family and assure the best of the education to our students.<br><br>
+                "You don't have to be great to start, but you have to start to be great."</p>
+            <p style="font-size: x-large;color:white; text-align: left;margin-left: 130%;width: 90%;margin-top: 20%;">
+                <b>"Governing body members"</b>
+            </p>
+        </div>
+    </div>
+    <div id="bac8">
+        <p style="padding: 2px;margin-left: 12px;font-size: x-large;color:white;"><b>OUR TEAM</b></p>
+        <div id="line8">
+        </div>
+    </div>
+    <div class="sub1">
+        <img src="https://svce.edu.in/images/hod/cse.jpg" alt="" width="100%" height="250px">
+        <p
+            style="font-size: 20px;font-family: sans-serif;color:white;line-height: 20px; background-color: rgb(10, 85, 139);height: 50px;margin-top: -1.3%; ">
+            <b style="font-size: 15px;margin-left: 7%;">Dr.R.Swathi
+            </b><br>
+        <p style="margin-top: -10%;margin-left: 7%;color:white"> Hod, Cse</p>
+        </p>
+    </div>
+    <div class="sub2">
+        <img src="https://svce.edu.in/images/hod/ece.jpg" alt="" width="100%" height="250px">
+        <p
+            style="font-size: 20px;font-family: sans-serif;color:white;line-height: 20px; background-color: rgb(10, 85, 139);height: 50px;margin-top: -1.3%; ">
+            <b style="font-size: 15px;margin-left: 7%;">Dr.D.Srinivasulu Reddy
+            </b><br>
+        <p style="margin-top: -10%;margin-left: 7%;color:white">Hod,Cse</p>
+        </p>
+    </div>
+    <div class="sub3">
+        <img src="https://svce.edu.in/images/hod/EEE_HOD.jpeg" alt="" width="100%" height="250px">
+        <p
+            style="font-size: 20px;font-family: sans-serif;color:white;line-height: 20px; background-color: rgb(10, 85, 139);height: 50px;margin-top: -1.3%; ">
+            <b style="font-size: 15px;margin-left: 7%;">Dr. V Lakshmi Devi
+            </b><br>
+        <p style="margin-top: -10%;margin-left: 7%;color:white"> Hod,Eee</p>
+        </p>
+    </div>
+    <div class="sub4">
+        <img src="https://svce.edu.in/images/hod/me.jpg" alt="" width="100%" height="250px">
+        <p
+            style="font-size: 20px;font-family: sans-serif;color:white;line-height: 20px; background-color: rgb(10, 85, 139);height: 50px;margin-top: -1.3%; ">
+            <b style="font-size: 15px;margin-left: 7%;">Dr.M.Chandra Sekhara Reddy
+            </b><br>
+        <p style="margin-top: -10%;margin-left: 7%;color:white">Hod,Me</p>
+        </p>
+    </div>
+    <div class="sub5">
+        <img src="https://svce.edu.in/images/hod/Civil.jpg" alt="" width="100%" height="250px">
+        <p
+            style="font-size: 20px;font-family: sans-serif;color:white;line-height: 20px; background-color: rgb(10, 85, 139);height: 50px;margin-top: -1.3%; ">
+            <b style="font-size: 15px;margin-left: 7%;">Dr.M.Chittaranjan</b><br>
+        <p style="margin-top: -10%;margin-left: 7%;color:white">Hod, civil</p>
+        </p>
+    </div>
+    <div class="sub6">
+        <img src="https://svce.edu.in/images/hod/IT.jpg" alt="" width="100%" height="250px">
+        <p
+            style="font-size: 20px;font-family: sans-serif;color:white;line-height: 20px; background-color: rgb(10, 85, 139);height: 50px;margin-top: -1.3%; ">
+            <b style="font-size: 15px;margin-left: 7%;">Dr.S.Murali Krishna
+
+            </b><br>
+        <p style="margin-top: -10%;margin-left: 7%;color:white"> Hod, IT</p>
+        </p>
+    </div>
+    <div class="sub7">
+        <img src="https://svce.edu.in/images/hod/s_h.jpeg" alt="" width="100%" height="250px">
+        <p
+            style="font-size: 20px;font-family: sans-serif;color:white;line-height: 20px; background-color: rgb(10, 85, 139);height: 50px;margin-top: -1.3%; ">
+            <b style="font-size: 15px;margin-left: 7%;">Dr.N.Manohar Reddy
+                HOD,S&H
+            </b><br>
+        <p style="margin-top: -10%;margin-left: 7%;color:white">Hod,S&H</p>
+        </p>
+    </div>
+    <div class="sub8">
+        <img src="https://svce.edu.in/images/hod/mba.jpeg" alt="" width="100%" height="250px">
+        <p
+            style="font-size: 20px;font-family: sans-serif;color:white;line-height: 20px; background-color: rgb(10, 85, 139);height: 50px;margin-top: -1.3%; ">
+            <b style="font-size: 15px;margin-left: 7%;">Dr.P. Subramanyachary
+
+            </b><br>
+        <p style="margin-top: -10%;margin-left: 7%;color:white"> Hod,Mba</p>
+        </p>
+    </div>
+    <div class="sub9">
+        <img src="https://svce.edu.in/images/hod/dheeraj.jpg" alt="" width="100%" height="250px">
+        <p
+            style="font-size: 20px;font-family: sans-serif;color:white;line-height: 20px; background-color: rgb(10, 85, 139);height: 50px;margin-top: -1.3%; ">
+            <b style="font-size: 15px;margin-left: 7%;">CH.Lawrence Dheeraj
+
+            </b><br>
+        <p style="margin-top: -10%;margin-left: 7%;color:white">Hod,Mc</p>
+        </p>
+    </div>
+    <div class="sub10">
+        <img src="https://svce.edu.in/images/hod/English_hod.jpeg" alt="" width="100%" height="250px">
+        <p
+            style="font-size: 20px;font-family: sans-serif;color:white;line-height: 20px; background-color: rgb(10, 85, 139);height: 50px;margin-top: -1.3%; ">
+            <b style="font-size: 15px;margin-left: 7%;">Dr. K Suneetha</b><br>
+        <p style="margin-top: -10%;margin-left: 7%;color:white">Hod, English</p>
+        </p>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="last">
+        <div id="sm2">
+            <p style="font-size: 30px;margin-left: 120px;margin-top: 45px;color:rgb(17, 90, 143);"><b>OUR
+                    ACCREDITATIONS</b></p>
+            <div style="width:50%;height:50px;margin-left: 600px;margin-top: -50px;">
+                <img class="im1" src="https://svce.edu.in/images/aicte.jpg" alt="" style="margin-left: 50px;">
+                <img class="im1" src="https://svce.edu.in/images/jntu.jpg" alt="" style="margin-left: 5px;">
+                <img class="im1" src="https://svce.edu.in/images/naac.jpg" alt="" style="margin-left: 5px;">
+                <img class="im1" src="https://svce.edu.in/images/nba.jpg" alt="" style="margin-left: 5px;">
+                <img class="im1" src="https://svce.edu.in/images/ugc_logo.png" alt=""
+                    style="margin-left: 5px;width:30%">
+            </div>
+            <img src="https://svce.edu.in/images/svcelogolight.png" alt="" style="margin-top: 40px;">
+            <div id="le1">
+                <p class="lp"><b>Quick links</b></p><br>
+                <hr style="width: 120px;margin-top: -10px;">
+                <a href="addmisions.html" class="lin">Admissions</a><br>
+                <a href="Svce.html" class="lin">Institutions</a><br>
+                <a href="Placements.html" class="lin">Placements</a><br>
+                <a href="Alumni.html" class="lin">Alumni</a><br>
+                <a href="Jobs.html" class="lin">Jobs</a><br>
+                <a href="Contactus.html" class="lin">Contact Us</a><br>
+                <a href="https://svce.edu.in/files/NAAC_NBA_AUTONOMOUS_EOA.pdf" class="lin">Mandatory Disclosure</a><br>
+                <a href="https://svce.edu.in/files/IQAC.pdf" class="lin">IQAC</a><br>
+                <a href="IIc.html" class="lin">IIC</a><br>
+                <a href="https://svce.edu.in/files/NIRF-2023-overall.pdf" class="lin">NIRF_2023</a><br>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLTh_Ud4N_bpSBWuCMR16zXtfB7k6p4ocJEfNC01nhKauzcA/formrestricted"
+                    class="lin">Student Grievance</a><br>
+                <a href="https://www.aicte-india.org/feedback/" class="lin">Student-Faculty Feedback</a><br>
+                <a href="https://svce.edu.in/HR_Policy_Book_22-02-2019.pdf" class="lin">HR Policy</a><br>
+                <a href="https://svce.edu.in/files/SVEC%20R&D%20Policy.pdf" class="lin">R&D Policy</a><br>
+                <a href="https://svce.edu.in/2018-22%20Audit_report.pdf" class="lin">Audit statement</a><br>
+                <a href="https://svce.edu.in/files/GB_MoM_New.pdf" class="lin">GB MoM</a><br>
+                <a href="https://svce.edu.in/files/Members%20of%20Academic%20Council.pdf" class="lin">Members of
+                    Academic Council</a><br>
+                <a href="AicteEOAs.html" class="lin">AICTE EOAs</a><br>
+                <a href="https://svce.edu.in/files/SVCE%20Committees.pdf" class="lin">SVCE Committees</a><br>
+                <a href="https://svce.edu.in/files/clubs_new.pdf" class="lin">SVCE Clubs</a><br>
+                <a href="NewsLs.html" class="lin">News Letters</a><br>
+                <a href="Examination.html" class="lin">Examinations</a><br>
+            </div>
+            <div id="le2">
+                <p class="lp"><b>Tirupati Campus</b></p><br>
+                <hr style="width: 180px;margin-top: -10px;">
+                <p class="bv"><b>SVCE & SVEC</b></p>
+                <p class="bv1">Karakambadi Road, Tirupati</p>
+            </div>
+            <div id="le3">
+                <p class="lp"><b>Kadapa Campus</b></p><br>
+                <hr style="width: 180px;margin-top: -10px;">
+                <p class="bv"><b>SVCK & SVDK</b></p>
+                <p class="bv1">Balaji Nagar, Kadapa</p>
+            </div>
+            <i class="fa fa-phone"
+                style="font-size:36px;color:white;margin-left: 51.5%;margin-top: -12%;position: absolute;"></i>
+            <p style="margin-left: 64%;margin-top: -14%;color: rgba(10, 37, 56, 0.7);color:white;font-size: 18px;">
+                <b>+91-88866 44985</b>
+            </p>
+            <i class="fa fa-phone"
+                style="font-size:36px;color:white;margin-left: 70%;margin-top: -1%;position: absolute;"></i>
+            <p style="margin-left: 86%;margin-top: -1%;color: rgba(10, 37, 56, 0.7);color:white;font-size: 18px;">
+                <b>+91-88866 44985<br>+91-88866
+                    44969</b>
+            </p>
+
+            <i class="fa fa-envelope" style="font-size:30px;color:white;margin-left: 61%;margin-top: 0.3%;"></i>
+            <p style="margin-left: 64.5%;margin-top: -2.4%;color: rgba(10, 37, 56, 0.7);color:white;font-size: 18px;">
+                <a href="https://mail.google.com/mail/u/0/" style="text-decoration: none;color:white"> <b>info@svec.edu.in</b></a>
+            </p><br>
+
+            <i class="fa fa-envelope" style="font-size:30px;color:white;margin-left: 61%;margin-top: 0%;"></i>
+            <p style="margin-left: 64.5%;margin-top: -2.4%;color: rgba(10, 37, 56, 0.7);color:white;font-size: 18px;">
+                <a href="https://mail.google.com/mail/u/0/" style="text-decoration: none;color:white"> <b>info@svce.edu.in</b></a>
+            </p>
+
+            <i class="fa fa-envelope"
+                style="font-size:30px;color:white;margin-left: 70%;margin-top: -3.8%;position: absolute;"></i>
+            <p style="margin-left: 86.5%;margin-top: -4.0%;color: white;font-size: 18px;">
+                <a href="https://mail.google.com/mail/u/0/" style="text-decoration: none;color:white"> <b>info@svck.edu.in</b></a>
+            </p><br>
+
+            <i class="fa fa-envelope"
+                style="font-size:30px;color:white;margin-left: 70%;margin-top: 0%;position: absolute;"></i>
+            <p style="margin-left: 86.5%;margin-top: 0.2%;color: rgba(10, 37, 56, 0.7);color:white;font-size: 18px;">
+                <a href="https://mail.google.com/mail/u/0/" style="text-decoration: none;color:white"> <b>info@svdc.edu.in</b></a>
+            </p><br>
+            <div style="width:20%;height: 30px;margin-left: 4%;margin-top: -180px;padding-left: 40px;">
+
+                <a class="icons" href="https://www.facebook.com/GlobalQuestTech"> <i class="fa fa-facebook-square"
+                        style="font-size:36px;color:white;padding-left: 8px;"></i></a>
+                <a class="icons" href="https://www.instagram.com/svcolleges/"> <i class="fa fa-instagram"
+                        style="font-size:36px;color:white;padding-left: 8px;"></i></a>
+                <a class="icons"
+                    href="https://www.linkedin.com/school/sri-venkateswara-college-of-engineering-tirupati/"> <i
+                        class="fa fa-youtube-play" style="font-size:36px;color:white;padding-left: 8px;"></i></a>
+                <a class="icons"
+                    href="https://www.linkedin.com/school/sri-venkateswara-college-of-engineering-tirupati/"><i
+                        class="fa fa-linkedin-square" style="font-size:36px;color:white;padding-left: 8px;"></i></a>
+                <a class="icons" href="https://twitter.com/i/flow/login?redirect_after_login=%2FSVCE_Tirupati"><i
+                        class="fa fa-twitter-square" style="font-size:36px;color:white;padding-left: 8px;"></i> </a>
+            </div>
+            <div style="width:30%;height: 150px;margin-top: 25px;margin-left: 30px;">
+                <p style="color:white;font-style: normal;font-size: 17px;">SV Colleges have upheld a rigorous commitment
+                    to the curriculum and the programs that we offer, with a wide range of courses at our four
+                    institutions spread across Kadapa and Tirupati campuses. <a href="Svce.html" id="mn"
+                        style="text-decoration: none;color: red;">Read More...</a></p>
+            </div>
+        </div>
+    </div>
+    <footer style="background-color:rgb(17, 90, 143);border: 2px solid rgb(17, 90, 143);height: 65px;">
+        <nav
+            Style="color:white;font-family: sans-serif;font-size: 18px;word-spacing: 20px;margin-left: 90px;margin-top: 5px;">
+            <a href="#" style="text-decoration: none; color: white;">Terms&Conditions Privacy Accessibility</a>
+        </nav>
+        <p Style="color:white;font-family: sans-serif;font-size: 18px;margin-left: 1100px;margin-top: -25px;">@ SV
+            Colleges - All Rights are Reserved</p>
+    </footer>
+</body>
+
+</html>

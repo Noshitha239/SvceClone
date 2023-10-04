@@ -1,0 +1,40 @@
+.class1{
+    text-decoration: none;
+    font-size: 20px;
+    word-spacing: 20%;
+    color:white;
+   margin-top: 190%;
+   margin-left: 50px;
+   padding-left: 190px;
+   font-family: sans-serif;
+
+}
+#nav{
+    margin-top: 20px;
+    position: absolute;
+}
+#a:hover{
+    border: 2px solid white;
+}
+.sub1{
+    border: 2px solid  RED;
+    width:20%;
+    height: 270px;
+    border:none;
+    margin-top: 36%;
+    margin-left: 13%;
+    font-family: sans-serif;
+    position: absolute;
+    background-color: black;
+}
+.sub2{
+    border: 2px solid  RED;
+    width:20%;
+    height: 270px;
+    border:none;
+    margin-top: 36%;
+    margin-left: 38%;
+    font-family: sans-serif;
+    position: absolute;
+    background-color: black;
+}

@@ -1,0 +1,139 @@
+#head1{
+    background-color:rgb(203, 47, 78);
+    height: 46px;
+    width: 100%;
+    margin-top: 15px;
+}
+nav{
+    margin-top: -10px;
+    height:45px;
+    line-height: 20px;
+    min-height: 20px;
+    padding: 20px;
+    margin-left: 500px;
+    min-height: 4%;
+    line-height: 4%;
+}
+.an{
+    margin-left: 35px;
+    text-decoration: none;
+    color:white;
+   font-family: sans-serif;
+   font-size: 15px;
+}
+.an:hover{
+    color:blue;
+}
+#head2{
+    background-color: white;
+    height: 70px;
+    border-bottom:2px solid rgb(222, 213, 213);
+   
+    margin-top: 4px;
+    position: sticky;
+    top:0px;
+}
+#nav1{
+    margin-top: -90px;
+    height:45px;
+    line-height: 20px;
+    min-height: 20px;
+    padding: 20px;
+    margin-left: 500px;
+}
+.an1{
+    margin-left: 5px;
+    text-decoration: none;
+    color:rgb(92, 87, 87);
+   font-family: sans-serif;
+   font-size: 17px;
+   border-left: 2px solid rgb(214, 206, 206);
+   padding:20px;
+}
+.an1:hover{
+    color:blue;
+}
+#last{
+    width: 134.5%;
+    height: 900px;
+    border: 2px solid grey;
+    background-color: grey;
+    margin-top: 150px;
+    margin-left: -22%;
+}
+#sm2{
+    border:2px solid rgb(209, 203, 203);
+    width:85%;
+    height: 120px;
+    margin-top: -70px;
+    margin-left: 170px;
+    border-radius: 10px;
+   
+    background-color: white;
+}
+#le1{
+    width:20%;
+    height: 400px;
+   
+    margin-left: 500px;
+    margin-top: -80px;
+}
+#le2{
+    width:20%;
+    height: 300px;
+   
+    margin-left: 780px;
+    margin-top: -400px;
+}
+#le3{
+    width:20%;
+    height: 300px;
+   
+    margin-left: 1060px;
+    margin-top: -300px;
+}
+.lp{
+    color:white;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.lin{
+    color:white;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.lin:hover{
+    color: rgb(216, 213, 213);
+}
+.bv{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+.bv1{
+    color:white;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+#mn:hover{
+    color:blue;
+}
+.im1{
+    width:90px;
+    height: 90px;
+    padding-top: 2px;
+    margin-top: -20px;
+}
+
+.img1{
+    width:10%;
+    height: 20px;
+    margin-left: -300px;
+    padding-left: 2px;
+    margin: 0px;
+}
